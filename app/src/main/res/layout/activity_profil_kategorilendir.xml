@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yksayttyt.Cozuyorumm.ProfilKategorilendirActivity">
+
+    <Spinner
+        android:id="@+id/katspinner"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorSiyah"
+        android:backgroundTint="@color/browser_actions_divider_color"
+        android:layerType="hardware"
+        android:outlineSpotShadowColor="@color/colorSiyah"
+        android:scrollbarSize="44dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Spinner
+        android:id="@+id/katspinner2"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginBottom="73dp"
+        android:background="@color/colorSiyah"
+        android:backgroundTint="@color/browser_actions_divider_color"
+        android:layerType="hardware"
+        android:outlineSpotShadowColor="@color/colorSiyah"
+        app:layout_constraintBottom_toTopOf="@+id/katbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/katbutton"
+        android:layout_width="116dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="350dp"
+        android:text="Seç"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/katspinner2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="DERS"
+        app:layout_constraintBottom_toTopOf="@+id/katspinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONU"
+        app:layout_constraintBottom_toTopOf="@+id/katspinner2"
+        app:layout_constraintEnd_toEndOf="@+id/katspinner2"
+        app:layout_constraintStart_toStartOf="@+id/katspinner2"
+        app:layout_constraintTop_toBottomOf="@+id/katspinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

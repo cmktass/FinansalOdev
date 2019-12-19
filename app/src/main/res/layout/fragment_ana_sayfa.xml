@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cerceve.AnaSayfaFragment">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_AnaSayfaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:windowBackground">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp">
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:scaleType="fitStart"
+                android:layout_marginLeft="7dp"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="147dp"
+                android:layout_marginBottom="25dp"
+                android:text="GÖNDERİLER"
+                android:textColor="@color/colorSiyah"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/kategorilendir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_kategorilendir"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="13dp"
+                android:outlineAmbientShadowColor="@color/colorSiyah"
+                android:outlineSpotShadowColor="@color/colorSiyah"
+                android:layout_marginTop="13dp"/>
+
+
+
+            
+        </RelativeLayout>
+        
+    </com.google.android.material.appbar.AppBarLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclerViewAnaSayfa"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/bar_AnaSayfaFragment">
+
+       </androidx.recyclerview.widget.RecyclerView>
+   
+
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?android:windowBackground"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kullanici_resmi_Ogesi"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_margin="7dp" />
+
+            <TextView
+                android:id="@+id/txt_KulaniciAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:id="@+id/gonderiResmi"
+            android:layout_width="match_parent"
+            android:layout_height="399dp"
+            android:scaleType="fitXY"
+
+            android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/dersOgesi"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/ic_ders" />
+
+            <ImageView
+                android:id="@+id/cevaplaOgesi"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="38dp"
+                android:src="@drawable/ic_ders"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/kaydetOgesi"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_kaydet"
+                android:tag="" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dersAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Matematik"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/dersKonuAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Sayılar"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/GonderiHakkinda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Gonderi Hakkında"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

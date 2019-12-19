@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sari"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".GirisActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:background="@color/sari"
+        />
+    <EditText
+        android:id="@+id/edt_kulaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Adresiniz"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@drawable/edit_text_arkaplan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/edt_Sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edit_text_arkaplan"
+        android:hint="Sifreniz"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_giris2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="GirisYap"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/text_kayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:onClick="goKayit"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Hesabınız Yoksa Kayıt Olun"
+        android:textSize="16dp" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "212727588198",
+    "firebase_url": "https://insta-a27fb.firebaseio.com",
+    "project_id": "insta-a27fb",
+    "storage_bucket": "insta-a27fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212727588198:android:8428ff661d0f47bdda94a7",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212727588198-1gs5nl1jm1vjv84mblm9k86da4cjv0of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS5kQJ2q9g0xfqkJA8ri2xhW6JJuFwvdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212727588198-1gs5nl1jm1vjv84mblm9k86da4cjv0of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212727588198:android:d98e4c60e8a47b62da94a7",
+        "android_client_info": {
+          "package_name": "com.tytayt.cozuyorum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212727588198-4b8jrgvj0bo272db9upee8t0f06db1pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tytayt.cozuyorum",
+            "certificate_hash": "50375911e98d49d3a94edaef35c2a4cf00fbc6a2"
+          }
+        },
+        {
+          "client_id": "212727588198-1gs5nl1jm1vjv84mblm9k86da4cjv0of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS5kQJ2q9g0xfqkJA8ri2xhW6JJuFwvdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212727588198-1gs5nl1jm1vjv84mblm9k86da4cjv0of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
